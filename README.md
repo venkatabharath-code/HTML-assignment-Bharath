@@ -38,4 +38,4 @@ Technologies Used:
 - No frameworks
 
 This project was created as part of the "HTML Fundamentals Assessment" to demonstrate understanding of semantic elements, forms, tables, links, images, and proper HTML structure.
-Live Demo link:https://venkatabharath-code.github.io/HTML-assignment-Bharath/task1
+Live Demo link:https: //venkatabharath-code.github.io/HTML-assignment-Bharath/task1
