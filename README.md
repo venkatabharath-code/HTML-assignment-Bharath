@@ -1,3 +1,23 @@
+# HTML Fundamentals Assessment
+
+## Student Information
+**Name:** paladugu venkata Bharath  
+**Student ID:** YOUR_STUDENT_ID  
+**Assessment Title:
+** HTML Fundamentals Assessment  
+
+---
+
+## Project Overview
+This repository contains all tasks completed for the **HTML Fundamentals Assessment** using only pure HTML.  
+The project demonstrates semantic HTML structure, forms, tables, accessibility, metadata, navigation techniques, and image handling without using CSS, JavaScript, or external frameworks.  
+
+Repository structure and implementation were completed according to the assessment guidelines provided in the PDF. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Task Descriptions
+
 # Task 1 – Multi-Page Portfolio Website
 
 This task is a complete multi-page portfolio website developed using PURE HTML only. The project includes four interconnected pages: Home, About, Projects, and Contact, following proper semantic HTML5 structure.
