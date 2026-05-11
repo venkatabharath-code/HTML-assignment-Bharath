@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help &amp; Resources | My HTML Project</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❓</text></svg>" type="image/svg+xml">
+</head>
+
+<body style="font-family: Georgia, serif; background-color: #f5f0e8; color: #2c2c2c; margin: 0; padding: 0;">
+
+  <!-- Header -->
+  <header style="background-color: #8b4513; padding: 24px 40px;">
+    <h1 style="color: #ffffff; margin: 0; font-size: 26px;">❓ Help &amp; Resources</h1>
+    <p style="color: #ffcc80; margin: 6px 0 0 0; font-size: 14px;">Task 2 — resources/help.html</p>
+  </header>
+
+  <!-- Navigation bar -->
+  <nav style="background-color: #5d2e0c; padding: 12px 40px;">
+    <a href="../navigation.html" style="color: #ffd700; margin-right: 20px; font-size: 15px;">← Back to Navigation</a>
+    <a href="../pages/about.html"   style="color: #ffd700; margin-right: 20px; font-size: 15px;">About Page</a>
+    <a href="../pages/contact.html" style="color: #ffd700; font-size: 15px;">Contact Page</a>
+  </nav>
+
+  <!-- Main content -->
+  <main style="max-width: 760px; margin: 40px auto; padding: 0 20px;">
+    <article style="background-color: #ffffff; border-radius: 8px; padding: 32px; border: 1px solid #ffcc80;">
+
+      <h2 style="color: #8b4513; border-bottom: 2px solid #ffcc80; padding-bottom: 10px;">
+        HTML Help &amp; Learning Resources 📚
+      </h2>
+
+      <p style="line-height: 1.9; font-size: 16px;">
+        This page contains helpful links and tips for learning HTML. These are the resources
+        I used while working on this assessment. Bookmark this page if you're also learning HTML!
+      </p>
+
+      <!-- FAQ Section -->
+      <h3 style="color: #8b4513;">❓ Frequently Asked Questions</h3>
+
+      <dl style="font-size: 16px; line-height: 1.9;">
+        <dt style="font-weight: bold; color: #5d2e0c; margin-top: 14px;">What is an anchor link?</dt>
+        <dd style="margin-left: 20px;">
+          An anchor link uses a <code>#id</code> in the URL to jump to a specific part of the same page.
+          Example: <code>&lt;a href="#section1"&gt;Go to Section 1&lt;/a&gt;</code>
+        </dd>
+
+        <dt style="font-weight: bold; color: #5d2e0c; margin-top: 14px;">What is a relative link?</dt>
+        <dd style="margin-left: 20px;">
+          A relative link points to another file within the same project. It does not include
+          <code>http://</code> — just the file path like <code>pages/about.html</code>.
+        </dd>
+
+        <dt style="font-weight: bold; color: #5d2e0c; margin-top: 14px;">What does the <code>download</code> attribute do?</dt>
+        <dd style="margin-left: 20px;">
+          It tells the browser to download the linked file instead of opening it.
+          Example: <code>&lt;a href="file.pdf" download&gt;Download PDF&lt;/a&gt;</code>
+        </dd>
+
+        <dt style="font-weight: bold; color: #5d2e0c; margin-top: 14px;">What is an image map?</dt>
+        <dd style="margin-left: 20px;">
+          An image map makes different parts of one image clickable. You use the <code>&lt;map&gt;</code>
+          and <code>&lt;area&gt;</code> tags to define clickable regions with shapes like
+          <code>rect</code>, <code>circle</code>, and <code>poly</code>.
+        </dd>
+
+        <dt style="font-weight: bold; color: #5d2e0c; margin-top: 14px;">How do I write an email link?</dt>
+        <dd style="margin-left: 20px;">
+          Use <code>mailto:</code> followed by the email address.
+          Example: <code>&lt;a href="mailto:you@email.com?subject=Hi"&gt;Email Me&lt;/a&gt;</code>
+        </dd>
+      </dl>
+
+      <!-- Useful HTML Links -->
+      <h3 style="color: #8b4513; margin-top: 28px;">🔗 Useful Learning Links</h3>
+      <ul style="line-height: 2.4; font-size: 16px;">
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="color: #8b4513;">
+            MDN Web Docs — HTML Reference (opens in new tab)
+          </a>
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/html/" target="_blank" style="color: #8b4513;">
+            W3Schools — HTML Tutorial (opens in new tab)
+          </a>
+        </li>
+        <li>
+          <a href="https://validator.w3.org/" target="_blank" style="color: #8b4513;">
+            W3C HTML Validator — Check your HTML (opens in new tab)
+          </a>
+        </li>
+      </ul>
+
+      <p style="margin-top: 28px;">
+        <a href="../navigation.html" style="color: #ffffff; background-color: #8b4513; padding: 9px 20px; border-radius: 4px; text-decoration: none; font-size: 15px;">
+          ← Go Back to Navigation Page
+        </a>
+      </p>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background-color: #8b4513; color: #ffcc80; text-align: center; padding: 18px; font-size: 13px; margin-top: 30px;">
+    <p style="margin: 0;">&copy; 2025 My HTML Project — Help &amp; Resources Page</p>
+  </footer>
+
+</body>
+</html>
