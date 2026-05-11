@@ -78,3 +78,37 @@ The Contact page was additionally enhanced with a professional HTML form contain
 Throughout the task, semantic HTML structure, accessibility practices, descriptive text, organized folder hierarchy, favicon integration, inline styling, and clean code formatting were maintained according to the assessment guidelines.
 
 Live Demo link:https://venkatabharath-code.github.io/HTML-assignment-Bharath/task2/navigation.html
+
+
+# Task 3 – Complex Table Design with Nested Structures
+
+This project was created using PURE HTML only as part of the HTML Fundamentals Assessment.
+
+The task demonstrates advanced usage of HTML table elements and attributes without using CSS, JavaScript, or any frameworks.
+
+## Features Included
+
+- Multiple HTML tables
+- Skills Table
+- Projects Table
+- Weekly Schedule Table
+- Nested Table Structure
+- Usage of rowspan and colspan
+- thead, tbody, and tfoot sections
+- bgcolor attributes with named, hex, and RGB colors
+- align and valign attributes
+- External links using target="_blank"
+- Image integration with alt text
+- Semantic HTML structure
+- 
+## Learning Outcomes
+Through this task, I learned:
+- How to create complex HTML tables
+- How rowspan and colspan work
+- How nested tables are structured
+- How to use semantic tags properly
+- How to manage project files and navigation links
+
+## Live Demo
+
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task3/tables.html
