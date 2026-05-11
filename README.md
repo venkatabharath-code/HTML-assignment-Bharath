@@ -77,4 +77,4 @@ The Contact page was additionally enhanced with a professional HTML form contain
 
 Throughout the task, semantic HTML structure, accessibility practices, descriptive text, organized folder hierarchy, favicon integration, inline styling, and clean code formatting were maintained according to the assessment guidelines.
 
-Live Demo link:https://venkatabharath-code.github.io/HTML-assignment-Bharath/task2
+Live Demo link:https://venkatabharath-code.github.io/HTML-assignment-Bharath/task2/navigation.html
