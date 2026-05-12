@@ -126,3 +126,38 @@ The form was designed with clean semantic HTML structure, organized layout secti
 
 ### 🔗 Live Demo
 https://venkatabharath-code.github.io/HTML-assignment-Bharath/task4/form.html
+
+
+# Task 5 – Advanced Image Gallery Using Pure HTML
+
+This project was created as part of the HTML Fundamentals Assessment using only PURE HTML without CSS, JavaScript, or any frameworks. The main objective of this task was to understand image handling, semantic HTML structure, accessibility practices, and image-based navigation techniques.
+
+The gallery includes multiple sections with coding-related images, GitHub workflow screenshots, project development visuals, internship workspace images, and portfolio project references. Different HTML image attributes such as width, height, border, hspace, vspace, align, alt, and title were implemented throughout the project.
+
+This task also demonstrates the use of advanced HTML elements like figure, figcaption, picture, and source tags. Linked images with different target attributes were included to improve navigation and external resource handling. Accessibility best practices were followed by adding meaningful alt text descriptions for every image.
+
+The project was designed using a purple and lavender themed layout with only HTML presentation attributes such as bgcolor and font color. All images were organized using proper folder structures and relative file paths to ensure compatibility with both Live Server and GitHub Pages deployment.
+
+## Features Included
+
+- Pure HTML image gallery
+- Semantic HTML structure
+- 12 image implementations
+- Figure and figcaption usage
+- Picture element with source tags
+- Relative and absolute image paths
+- Linked images with multiple target attributes
+- Accessibility-friendly alt text
+- HTML presentation attributes
+- GitHub Pages compatible folder structure
+
+## Technologies Used
+
+- HTML5
+- VS Code
+- GitHub
+- GitHub Pages
+
+## Live Demo
+
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task5/gallery.html
