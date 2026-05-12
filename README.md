@@ -160,4 +160,4 @@ The project was designed using a purple and lavender themed layout with only HTM
 
 ## Live Demo
 
-https://venkatabharath-code.github.io/HTML-assignment-Bharath/task5/gallery.html
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task5/gallary.html
