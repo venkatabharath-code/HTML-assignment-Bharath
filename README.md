@@ -111,4 +111,18 @@ Through this task, I learned:
 
 ## Live Demo
 
-https://venkatabharath-code.github.io/HTML-assignment-Bharath/task3/tables.html
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task3/tables.html  
+
+
+## Task 4 — Comprehensive Form Development with Validation
+
+In Task 4, I developed a professional and fully structured HTML registration form using PURE HTML only, following all assessment guidelines and validation requirements. The form demonstrates advanced usage of HTML form elements, semantic structure, accessibility practices, and built-in validation features without using JavaScript, external CSS, or frameworks.
+
+The project includes multiple HTML5 input types such as text, email, password, number, date, time, telephone, URL, color picker, range slider, file upload, checkboxes, and radio buttons. I also implemented dropdown menus using `<select>` and `<optgroup>`, grouped related sections using `<fieldset>` and `<legend>`, and added a textarea with character limits and placeholder text.
+
+To improve usability and form validation, the form contains attributes such as `required`, `minlength`, `maxlength`, `pattern`, `min`, `max`, and `step`. Additional features such as datalist autocomplete suggestions, readonly and disabled fields, submit/reset buttons, autofocus, and autocomplete functionality were also implemented to demonstrate comprehensive understanding of HTML forms and validation techniques.
+
+The form was designed with clean semantic HTML structure, organized layout sections, inline styling attributes, proper labels for all inputs, and accessibility-focused formatting according to the HTML Fundamentals Assessment requirements.
+
+### 🔗 Live Demo
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task4/form.html
