@@ -198,3 +198,41 @@ This task also helped in understanding how semantic tags improve webpage organiz
 ## Live Demo
 
 https://venkatabharath-code.github.io/HTML-assignment-Bharath/task6/blog.html
+
+# Task 7 – HTML Attributes & Metadata Showcase
+
+This project was developed as part of the HTML Fundamentals Assessment using PURE HTML only without CSS, JavaScript, or external frameworks. The objective of Task 7 was to demonstrate advanced usage of HTML attributes, metadata implementation, global attributes, accessibility-related attributes, and document-level configurations. :contentReference[oaicite:0]{index=0}
+
+The project includes extensive implementation of HTML global attributes such as id, class, title, lang, and dir across multiple elements to improve document organization and semantic understanding. Custom data-* attributes were added to various sections, cards, and content blocks to demonstrate attribute-based metadata handling in HTML documents. Interactive features like contenteditable, draggable, hidden, spellcheck, and translate attributes were also implemented to showcase practical real-world HTML attribute usage. :contentReference[oaicite:1]{index=1}
+
+This task also demonstrates proper document metadata configuration using multiple favicon sizes, icon link tags, language settings, tabindex ordering, and HTML entities for special characters. Various accessibility-friendly and structured HTML techniques were practiced while maintaining a beginner-to-intermediate level internship assessment style using only PURE HTML structure. The project helped improve understanding of how HTML attributes enhance usability, accessibility, content behavior, and webpage organization without using CSS or JavaScript.
+
+## Features Included
+
+- Pure HTML attribute showcase
+- data-* custom attributes implementation
+- Global attributes usage
+- id and class attribute organization
+- title attributes for additional information
+- lang and dir attribute examples
+- contenteditable sections
+- draggable elements
+- hidden attribute implementation
+- Custom tabindex ordering
+- spellcheck true and false examples
+- translate="no" usage
+- Multiple favicon sizes and metadata links
+- HTML entities implementation
+- Accessibility-focused HTML structure
+- GitHub Pages compatible folder structure
+
+## Technologies Used
+
+- HTML5
+- VS Code
+- GitHub
+- GitHub Pages
+
+## Live Demo
+
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task7/attributes.html
