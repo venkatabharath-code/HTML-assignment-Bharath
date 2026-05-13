@@ -161,3 +161,40 @@ The project was designed using a purple and lavender themed layout with only HTM
 ## Live Demo
 
 https://venkatabharath-code.github.io/HTML-assignment-Bharath/task5/gallary.html
+
+
+# Task 6 – Semantic HTML Blog Layout
+
+This project was created as part of the HTML Fundamentals Assessment using PURE HTML only without CSS, JavaScript, or any frameworks. The objective of Task 6 was to understand and implement semantic HTML elements properly while building a structured blog-style webpage.
+
+The project includes a complete semantic webpage layout using elements such as header, nav, main, section, article, aside, and footer. Different blog sections, article content, navigation links, highlighted information, and structured page organization were created to improve understanding of semantic HTML and accessibility concepts.
+
+The blog layout contains realistic student-level content related to web development learning, internship experience, coding practice, GitHub workflow, and project development activities. Proper heading hierarchy, paragraphs, lists, links, quotations, and content grouping were implemented to maintain clean document structure and readability.
+
+This task also helped in understanding how semantic tags improve webpage organization, SEO readability, accessibility, and overall maintainability of HTML documents. All content was developed using beginner-to-intermediate level PURE HTML structure suitable for internship assessment requirements.
+
+## Features Included
+
+- Pure HTML semantic webpage
+- Semantic tags implementation
+- Blog-style page structure
+- Header and navigation sections
+- Main content and article sections
+- Aside section for additional information
+- Footer section
+- Internal and external navigation links
+- Structured headings and paragraphs
+- Lists and quotations
+- Accessibility-friendly HTML structure
+- GitHub Pages compatible project structure
+
+## Technologies Used
+
+- HTML5
+- VS Code
+- GitHub
+- GitHub Pages
+
+## Live Demo
+
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task6/blog.html
