@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paladugu Venkata Bharath">
+    <meta name="description" content="HTML Code Examples page by Paladugu Venkata Bharath.">
+    <title>Examples - Documentation - Bharath</title>
+    <link rel="icon" href="../task6/images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>" type="image/svg+xml">
+</head>
+
+<body bgcolor="#FFF">
+
+    <a href="#main-content">Skip to main content</a>
+
+    <!-- Header -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr bgcolor="#800080">
+            <td align="center">
+                <br>
+                <h1 id="page-title">
+                    <font face="Georgia" color="#ffffff">HTML Documentation</font>
+                </h1>
+                <font face="Arial" size="3" color="#aaaaaa">
+                    by <b><font color="#f0c040">Paladugu Venkata Bharath</font></b>
+                </font>
+                <br><br>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <table width="100%" border="0" cellpadding="8" cellspacing="0" bgcolor="#16213e">
+            <tr>
+                <td align="center">
+                    <ul style="list-style:none; display:inline;">
+                        <li style="display:inline;">
+                            <a href="index.html">
+                                <font face="Arial" size="2" color="#cccccc">Home</font>
+                            </a>
+                        </li>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <li style="display:inline;">
+                            <a href="getting-started.html">
+                                <font face="Arial" size="2" color="#cccccc">Getting Started</font>
+                            </a>
+                        </li>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <li style="display:inline;">
+                            <a href="reference.html">
+                                <font face="Arial" size="2" color="#cccccc">Reference</font>
+                            </a>
+                        </li>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <li style="display:inline;">
+                            <a href="examples.html">
+                                <font face="Arial" size="2" color="#f0c040"><b>Examples</b></font>
+                            </a>
+                        </li>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <li style="display:inline;">
+                            <a href="sitemap.html">
+                                <font face="Arial" size="2" color="#cccccc">Sitemap</font>
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </nav>
+
+    <br>
+
+    <!-- Breadcrumb -->
+    <table width="88%" align="center" border="0" cellpadding="6" cellspacing="0">
+        <tr>
+            <td>
+                <nav aria-label="Breadcrumb">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Documentation</li>
+                        <li>Examples</li>
+                    </ol>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Search Form -->
+    <table width="88%" align="center" border="1" cellpadding="10"
+           cellspacing="0" bgcolor="#ffffff" bordercolor="#dddddd">
+        <tr bgcolor="#e8f4f8">
+            <td>
+                <form role="search" action="#" method="get">
+                    <label for="search-input">
+                        <font face="Arial" size="2" color="#333333">
+                            <b>Search Documentation:</b>
+                        </font>
+                    </label>
+                    &nbsp;
+                    <input type="text"
+                           id="search-input"
+                           name="q"
+                           placeholder="Type to search..."
+                           size="30"
+                           aria-label="Search documentation">
+                    &nbsp;
+                    <input type="submit" value="Search">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main" aria-labelledby="page-title">
+
+        <table width="88%" align="center" border="1" cellpadding="16"
+               cellspacing="0" bgcolor="#ffffff" bordercolor="#dddddd">
+            <tr bgcolor="#fdecea">
+                <td>
+                    <h2><font face="Georgia" color="#1a1a2e">
+                        HTML Code Examples
+                    </font></h2>
+                    <font face="Arial" size="2" color="#555555">
+                        These are simple code examples I practised during my learning.
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <hr>
+
+                    <!-- Example 1 -->
+                    <h3><font face="Georgia" color="#1a1a2e">
+                        Example 1 &mdash; Basic HTML Page
+                    </font></h3>
+                    <p>
+                        <font face="Arial" size="3" color="#333333">
+                            This is the minimum code needed for a valid HTML5 page.
+                            Every HTML file should start with this structure.
+                        </font>
+                    </p>
+                    <pre>
+<font face="Courier New" size="2" color="#333333">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</font>
+                    </pre>
+
+                    <hr>
+
+                    <!-- Example 2 -->
+                    <h3><font face="Georgia" color="#1a1a2e">
+                        Example 2 &mdash; Creating a Simple Table
+                    </font></h3>
+                    <p>
+                        <font face="Arial" size="3" color="#333333">
+                            Tables are used to display data in rows and columns.
+                            Here is a simple student marks table.
+                        </font>
+                    </p>
+                    <table border="1" cellpadding="8" cellspacing="0"
+                           bgcolor="#f9f9f9" bordercolor="#cccccc">
+                        <tr bgcolor="#1a1a2e">
+                            <th scope="col">
+                                <font face="Arial" size="2" color="#f0c040">Subject</font>
+                            </th>
+                            <th scope="col">
+                                <font face="Arial" size="2" color="#f0c040">Marks</font>
+                            </th>
+                            <th scope="col">
+                                <font face="Arial" size="2" color="#f0c040">Grade</font>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2">HTML Fundamentals</font></td>
+                            <td align="center"><font face="Arial" size="2">95</font></td>
+                            <td align="center"><font face="Arial" size="2" color="#006633"><b>A+</b></font></td>
+                        </tr>
+                        <tr bgcolor="#f0f0f0">
+                            <td><font face="Arial" size="2">Python Programming</font></td>
+                            <td align="center"><font face="Arial" size="2">88</font></td>
+                            <td align="center"><font face="Arial" size="2" color="#006633"><b>A</b></font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2">Database Management</font></td>
+                            <td align="center"><font face="Arial" size="2">82</font></td>
+                            <td align="center"><font face="Arial" size="2" color="#884400"><b>B+</b></font></td>
+                        </tr>
+                    </table>
+
+                    <hr>
+
+                    <!-- Example 3 -->
+                    <h3><font face="Georgia" color="#1a1a2e">
+                        Example 3 &mdash; Simple Form
+                    </font></h3>
+                    <p>
+                        <font face="Arial" size="3" color="#333333">
+                            This is a basic form with a name field and a submit button.
+                            Every input must have a matching label for accessibility.
+                        </font>
+                    </p>
+                    <form action="#" method="post">
+                        <table border="0" cellpadding="8" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <label for="ex-name">
+                                        <font face="Arial" size="2" color="#333333">
+                                            <b>Your Name:</b>
+                                        </font>
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           id="ex-name"
+                                           name="name"
+                                           placeholder="Enter your name"
+                                           size="25"
+                                           aria-label="Your name input field">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="ex-email">
+                                        <font face="Arial" size="2" color="#333333">
+                                            <b>Email:</b>
+                                        </font>
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="email"
+                                           id="ex-email"
+                                           name="email"
+                                           placeholder="Enter your email"
+                                           size="25"
+                                           aria-label="Email address input field">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="Submit">
+                                    &nbsp;
+                                    <input type="reset" value="Reset">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <hr>
+
+                    <p>
+                        <a href="reference.html">&larr; Reference</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="sitemap.html">Sitemap &rarr;</a>
+                    </p>
+
+                </td>
+            </tr>
+        </table>
+
+    </main>
+
+    <br>
+
+    <!-- Footer -->
+    <footer role="contentinfo" aria-label="Site footer">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr bgcolor="#800080">
+                <td align="center">
+                    <br>
+                    <address>
+                        <font face="Arial" size="2" color="#aaaaaa">
+                            <b><font color="#f0c040">Paladugu Venkata Bharath</font></b>
+                            &nbsp;&mdash;&nbsp; BE CSE<br>
+                            <a href="mailto:venkatabharath@paithacs.com">
+                                <font color="#aaccff">venkatabharath@paithacs.com</font>
+                            </a>
+                        </font>
+                    </address>
+                    <br>
+                    <font face="Arial" size="2" color="#666666">
+                        &copy; 2026 HTML Documentation &nbsp;&mdash;&nbsp;
+                        <time datetime="2026-12-01">December 2026</time>
+                    </font>
+                    <br>
+                    <font face="Arial" size="2">
+                        <a href="https://github.com/venkatabharath" target="_blank">
+                            <font color="#aaaaaa">GitHub</font>
+                        </a>
+                        &nbsp;|&nbsp;
+                        <a href="sitemap.html"><font color="#aaaaaa">Sitemap</font></a>
+                    </font>
+                    <br><br>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
