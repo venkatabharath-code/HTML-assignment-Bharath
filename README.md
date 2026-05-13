@@ -236,3 +236,42 @@ This task also demonstrates proper document metadata configuration using multipl
 ## Live Demo
 
 https://venkatabharath-code.github.io/HTML-assignment-Bharath/task7/attributes.html
+
+# Task 8 – Complete Documentation Website with Accessibility
+
+This project was developed as part of the HTML Fundamentals Assessment using PURE HTML only without CSS, JavaScript, or external frameworks. The objective of Task 8 was to create a complete multi-page documentation website demonstrating advanced HTML structure, accessibility practices, semantic organization, navigation systems, and interconnected webpage architecture. :contentReference[oaicite:0]{index=0}
+
+The project includes a fully connected documentation website containing multiple pages such as index.html, getting-started.html, reference.html, examples.html, and sitemap.html with consistent navigation across all pages. Proper semantic HTML elements like header, nav, main, section, article, aside, and footer were used throughout the website to improve structure, readability, and accessibility. :contentReference[oaicite:1]{index=1}
+
+Accessibility-focused features were implemented including skip-to-content links, proper heading hierarchy, descriptive alt text for images, labels for all form elements, ARIA attributes, breadcrumb navigation, and structured search forms. Expandable sections using details and summary tags were also added to improve content organization and user interaction using only PURE HTML. :contentReference[oaicite:2]{index=2}
+
+The documentation website also demonstrates advanced HTML concepts such as nested ordered and unordered lists for sitemap creation, metadata organization, horizontal rules, semantic footer information, time elements with datetime attributes, and address tags for contact details. The project was developed in a beginner-to-intermediate internship-level style while maintaining clean formatting, semantic correctness, and GitHub Pages compatibility.
+
+## Features Included
+
+- Multi-page documentation website
+- Consistent navigation system
+- Semantic HTML structure
+- Accessibility-focused implementation
+- ARIA attributes usage
+- Skip-to-content navigation
+- Breadcrumb navigation
+- Search form implementation
+- Sitemap with nested lists
+- Details and summary expandable sections
+- Proper heading hierarchy
+- Footer with contact information
+- Time and address semantic elements
+- HTML entities implementation
+- GitHub Pages compatible structure
+
+## Technologies Used
+
+- HTML5
+- VS Code
+- GitHub
+- GitHub Pages
+
+## Live Demo
+
+https://venkatabharath-code.github.io/HTML-assignment-Bharath/task8/index.html
