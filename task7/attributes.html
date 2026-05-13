@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paladugu Venkata Bharath">
+    <meta name="description" content="HTML attributes showcase by Paladugu Venkata Bharath for internship assessment at Paithacs Software Solutions.">
+    <meta name="keywords" content="HTML, attributes, data attributes, global attributes, tabindex, spellcheck, contenteditable, draggable, internship">
+
+    <title>HTML Attributes | Bharath</title>
+
+    <!-- Favicon links for multiple sizes -->
+    <!-- Store these files inside task7/icons/ folder -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../task6/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../task6/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../task6/images/apple-touch-icon.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>" type="image/svg+xml">
+
+</head>
+
+<body bgcolor="#fafafa">
+
+    <!-- ============================================================ -->
+    <!-- PAGE HEADER                                                   -->
+    <!-- ============================================================ -->
+
+    <table id="page-header" width="100%" cellpadding="14" bgcolor="#1b5e20">
+        <tr>
+            <td align="center">
+                <!-- translate="no" on name so it doesn't get auto-translated -->
+                <h1><font color="white" translate="no">Paladugu Venkata Bharath</font></h1>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Navigation -->
+    <table id="main-nav" width="100%" cellpadding="7" bgcolor="#424242">
+        <tr>
+            <td>
+                <font color="white">
+                    &nbsp;&nbsp;
+                    <a href="../task1/index.html" tabindex="1"><font color="white">Home</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task1/about.html" tabindex="2"><font color="white">About</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task2/navigation.html" tabindex="3"><font color="white">Navigation</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task3/tables.html" tabindex="4"><font color="white">Tables</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task4/form.html" tabindex="5"><font color="white">Form</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task5/gallary.html"><font color="white">Gallery</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task6/blog.html"><font color="white">Blog</font></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="../task2/pages/contact.html"><font color="white">Contact</font></a>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h1 id="page-top" align="center">Task 7 - HTML Attributes &amp; Metadata Showcase</h1>
+    <p align="center">
+        This page demonstrates various HTML attributes including data-*, global, accessibility, and metadata attributes.
+    </p>
+
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 1: data-* Custom Attributes (minimum 5)              -->
+    <!-- ============================================================ -->
+
+    <h2 id="data-attributes">1. Custom Data-* Attributes</h2>
+    <p>
+        Custom <b>data-*</b> attributes store extra information on HTML elements without affecting the visual output.
+        They are useful for organizing and labeling content.
+    </p>
+
+    <table id="data-table" border="1" cellpadding="10" cellspacing="2" width="80%">
+
+        <thead>
+            <tr bgcolor="#1b5e20">
+                <th align="center"><font color="white">Item</font></th>
+                <th align="center"><font color="white">Data Attribute Used</font></th>
+                <th align="center"><font color="white">Value</font></th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <!-- data-product-id -->
+            <tr id="row-html"
+                class="data-row skill-row"
+                bgcolor="#f1f8e9"
+                data-product-id="SKL-001"
+                title="HTML skill entry">
+                <td align="left">HTML Basics</td>
+                <td align="left"><font color="green">data-product-id</font></td>
+                <td align="left">SKL-001</td>
+            </tr>
+
+            <!-- data-category -->
+            <tr id="row-python"
+                class="data-row skill-row"
+                data-category="programming"
+                title="Python skill entry">
+                <td align="left">Python Basics</td>
+                <td align="left"><font color="green">data-category</font></td>
+                <td align="left">programming</td>
+            </tr>
+
+            <!-- data-skill -->
+            <tr id="row-github"
+                class="data-row tool-row"
+                bgcolor="#f1f8e9"
+                data-skill="version-control"
+                title="GitHub skill entry">
+                <td align="left">GitHub Version Control</td>
+                <td align="left"><font color="green">data-skill</font></td>
+                <td align="left">version-control</td>
+            </tr>
+
+            <!-- data-project -->
+            <tr id="row-portfolio"
+                class="data-row project-row"
+                data-project="html-assessment"
+                title="Portfolio project entry">
+                <td align="left">Portfolio Website</td>
+                <td align="left"><font color="green">data-project</font></td>
+                <td align="left">html-assessment</td>
+            </tr>
+
+            <!-- data-role -->
+            <tr id="row-internship"
+                class="data-row intern-row"
+                bgcolor="#f1f8e9"
+                data-role="intern-developer"
+                title="Internship role entry">
+                <td align="left">Internship at Paithacs</td>
+                <td align="left"><font color="green">data-role</font></td>
+                <td align="left">intern-developer</td>
+            </tr>
+
+            <!-- data-status -->
+            <tr id="row-mysql"
+                class="data-row skill-row"
+                data-status="in-progress"
+                title="MySQL learning status">
+                <td align="left">MySQL Database</td>
+                <td align="left"><font color="green">data-status</font></td>
+                <td align="left">in-progress</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr bgcolor="rgb(27, 94, 32)">
+                <td colspan="3" align="center">
+                    <font color="white">6 custom data-* attributes demonstrated above</font>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 2: Global Attributes - id, class, title              -->
+    <!-- id: used 10+ times above and below                           -->
+    <!-- class: used 15+ times across the page                        -->
+    <!-- title: used 8+ times showing tooltips                        -->
+    <!-- ============================================================ -->
+
+    <h2 id="global-attributes">2. Global Attributes - id, class, title</h2>
+    <p>
+        Global attributes can be applied on any HTML element. Here are examples of
+        <b>id</b>, <b>class</b>, and <b>title</b> attributes used naturally.
+    </p>
+
+    <table id="skills-table" class="info-table skills-section" width="80%" border="1" cellpadding="10">
+        <tr bgcolor="#e3f2fd">
+            <td id="skill-html" class="skill-cell web-skill" title="HyperText Markup Language - used for web structure">
+                <b>HTML</b> &nbsp;- Web Structure
+            </td>
+            <td id="skill-python" class="skill-cell lang-skill" title="Python - beginner friendly programming language">
+                <b>Python</b> &nbsp;- Programming
+            </td>
+        </tr>
+        <tr>
+            <td id="skill-js" class="skill-cell web-skill" title="JavaScript - makes websites interactive">
+                <b>JavaScript</b> &nbsp;- Interactivity
+            </td>
+            <td id="skill-mysql" class="skill-cell db-skill" title="MySQL - relational database management system">
+                <b>MySQL</b> &nbsp;- Database
+            </td>
+        </tr>
+        <tr bgcolor="#e3f2fd">
+            <td id="skill-github" class="skill-cell tool-skill" title="GitHub - version control and code hosting platform" colspan="2">
+                <b>GitHub</b> &nbsp;- Version Control &amp; Code Hosting
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- lang attribute on specific elements -->
+    <h2 id="lang-dir">3. Language and Direction Attributes</h2>
+    <p>
+        The <b>lang</b> attribute specifies the language of an element's content.
+        The <b>dir</b> attribute sets the text direction.
+    </p>
+
+    <table id="lang-table" class="info-table lang-section" width="80%" border="1" cellpadding="12">
+        <tr bgcolor="#fff9e6">
+            <td class="lang-cell ltr-cell" id="english-text" dir="ltr" lang="en"
+                title="English text - left to right direction">
+                <b>English (LTR):</b> This text flows from left to right, which is the standard direction for English.
+            </td>
+        </tr>
+        <tr>
+            <!-- dir="rtl" example with Arabic text note -->
+            <td class="lang-cell rtl-cell" id="rtl-text" dir="rtl" lang="ar"
+                title="Right to left direction example">
+                <b>RTL Example:</b> This text would flow right to left (like Arabic or Hebrew).
+            </td>
+        </tr>
+        <tr bgcolor="#fff9e6">
+            <td class="lang-cell" id="telugu-text" lang="te" dir="ltr"
+                title="Telugu language example">
+                <b lang="te">తెలుగు (Telugu):</b> నా పేరు పలడుగు వెంకట భారత్.
+                &nbsp;&nbsp;<small>(My name is Paladugu Venkata Bharath in Telugu)</small>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 4: contenteditable (minimum 2 elements)              -->
+    <!-- ============================================================ -->
+
+    <h2 id="contenteditable-section">4. Contenteditable Attribute</h2>
+    <p>
+        The <b>contenteditable</b> attribute allows users to edit the content directly in the browser.
+        Click on the boxes below to try editing them!
+    </p>
+
+    <!-- contenteditable element 1 -->
+    <table id="edit-table-1" class="edit-section note-section" width="80%" border="2" bgcolor="#e8f5e9" cellpadding="12">
+        <tr>
+            <td>
+                <b>Editable Note 1 (click to edit):</b><br><br>
+                <p id="editable-note1"
+                   class="editable-content student-note"
+                   contenteditable="true"
+                   title="Click here to type your own notes">
+                    This is my HTML learning note. I am currently practicing all HTML attributes
+                    for my internship assessment. You can click here and type your own notes!
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- contenteditable element 2 -->
+    <table id="edit-table-2" class="edit-section bio-section" width="80%" border="2" bgcolor="#e3f2fd" cellpadding="12">
+        <tr>
+            <td>
+                <b>Editable Bio (click to edit):</b><br><br>
+                <p id="editable-bio"
+                   class="editable-content student-bio"
+                   contenteditable="true"
+                   title="Edit your short bio here">
+                    Name: Paladugu Venkata Bharath | 
+                    Internship: Paithacs Software Solutions | Skills: HTML, Python, JS, MySQL, GitHub
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 5: draggable="true" (minimum 3 elements)             -->
+    <!-- ============================================================ -->
+
+    <h2 id="draggable-section">5. Draggable Attribute</h2>
+    <p>
+        The <b>draggable</b> attribute makes elements draggable in the browser.
+        Try dragging the boxes below!
+    </p>
+
+    <table width="80%" cellpadding="5">
+        <tr>
+
+            <!-- Draggable item 1 -->
+            <td align="center" width="33%">
+                <table id="drag-item1"
+                       class="drag-item skill-item"
+                       draggable="true"
+                       border="2"
+                       bgcolor="#ffecb3"
+                       cellpadding="15"
+                       title="Draggable skill card - HTML">
+                    <tr>
+                        <td align="center">
+                            <b>&#9654; Drag Me</b><br><br>
+                            <b>Skill: HTML</b><br>
+                            <small>Web Structure</small>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Draggable item 2 -->
+            <td align="center" width="33%">
+                <table id="drag-item2"
+                       class="drag-item skill-item"
+                       draggable="true"
+                       border="2"
+                       bgcolor="#e1f5fe"
+                       cellpadding="15"
+                       title="Draggable skill card - Python">
+                    <tr>
+                        <td align="center">
+                            <b>&#9654; Drag Me</b><br><br>
+                            <b>Skill: Python</b><br>
+                            <small>Programming</small>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Draggable item 3 -->
+            <td align="center" width="33%">
+                <table id="drag-item3"
+                       class="drag-item skill-item"
+                       draggable="true"
+                       border="2"
+                       bgcolor="#f3e5f5"
+                       cellpadding="15"
+                       title="Draggable skill card - GitHub">
+                    <tr>
+                        <td align="center">
+                            <b>&#9654; Drag Me</b><br><br>
+                            <b>Skill: GitHub</b><br>
+                            <small>Version Control</small>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 6: hidden attribute (minimum 1 element)              -->
+    <!-- ============================================================ -->
+
+    <h2 id="hidden-section">6. Hidden Attribute</h2>
+    <p>
+        The <b>hidden</b> attribute hides an element from the page.
+        The paragraph below is hidden and won't show in the browser:
+    </p>
+
+    <!-- This element is hidden - it exists in HTML but is not visible -->
+    <p id="hidden-content"
+       class="hidden-element secret-note"
+       hidden
+       title="This element is hidden from the page">
+        This is hidden content. It is present in the HTML source but not visible on the page.
+        It could be used for storing data or showing content only when needed.
+    </p>
+
+    <p><i>Note: A hidden paragraph element exists in the code above this line but is invisible on the page. Right-click and view page source to see it.</i></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 7: tabindex (minimum 5 elements, values -1,0,1,2,3) -->
+    <!-- tabindex already used on nav links above                     -->
+    <!-- Adding more examples here with a form                        -->
+    <!-- ============================================================ -->
+
+    <h2 id="tabindex-section">7. Tabindex Attribute</h2>
+    <p>
+        The <b>tabindex</b> attribute controls the tab order when the user presses the Tab key.
+        Try pressing Tab on this page to see the order.
+    </p>
+
+    <table id="tabindex-table" class="info-table form-section" width="80%" border="1" cellpadding="12" bgcolor="#fafafa">
+        <tr bgcolor="#e8eaf6">
+            <td colspan="2" align="center">
+                <b>Tab Order Demo Form</b>
+                <br><small>Press Tab key to move between fields in order</small>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" width="35%">
+                <label for="tab-name"><b>Your Name (Tab 1):</b></label>
+            </td>
+            <td>
+                <input type="text"
+                       id="tab-name"
+                       class="tab-input name-input"
+                       name="tab-name"
+                       tabindex="1"
+                       placeholder="First field in tab order"
+                       spellcheck="true"
+                       title="First input - tabindex 1"
+                       size="30">
+            </td>
+        </tr>
+        <tr bgcolor="#f5f5f5">
+            <td align="right">
+                <label for="tab-email"><b>Email (Tab 2):</b></label>
+            </td>
+            <td>
+                <input type="email"
+                       id="tab-email"
+                       class="tab-input email-input"
+                       name="tab-email"
+                       tabindex="2"
+                       placeholder="Second field in tab order"
+                       spellcheck="false"
+                       title="Second input - tabindex 2"
+                       size="30">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <label for="tab-skill"><b>Skill (Tab 3):</b></label>
+            </td>
+            <td>
+                <input type="text"
+                       id="tab-skill"
+                       class="tab-input skill-input"
+                       name="tab-skill"
+                       tabindex="3"
+                       placeholder="Third field in tab order"
+                       title="Third input - tabindex 3"
+                       size="30">
+            </td>
+        </tr>
+        <tr bgcolor="#f5f5f5">
+            <td align="right" valign="top">
+                <label for="tab-notes"><b>Notes (Tab 0):</b></label>
+            </td>
+            <td>
+                <textarea id="tab-notes"
+                          class="tab-textarea notes-input"
+                          name="tab-notes"
+                          tabindex="0"
+                          rows="3"
+                          cols="30"
+                          placeholder="tabindex=0 means normal tab order"
+                          spellcheck="true"
+                          title="Textarea with tabindex 0"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <label for="tab-skip"><b>Skip Field (Tab -1):</b></label>
+            </td>
+            <td>
+                <input type="text"
+                       id="tab-skip"
+                       class="tab-input skip-input"
+                       name="tab-skip"
+                       tabindex="-1"
+                       placeholder="tabindex=-1 skips this from Tab order"
+                       title="This field is skipped during Tab navigation"
+                       size="30">
+                <br><small><i>This field is skipped when pressing Tab (tabindex="-1")</i></small>
+            </td>
+        </tr>
+        <tr bgcolor="#f5f5f5">
+            <td colspan="2" align="center">
+                <input type="submit"
+                       id="tab-submit"
+                       class="tab-button submit-button"
+                       value="Submit (Tab order)"
+                       tabindex="4"
+                       title="Submit button - tabindex 4">
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 8: spellcheck (true and false)                       -->
+    <!-- Already shown above in form, adding clear examples here      -->
+    <!-- ============================================================ -->
+
+    <h2 id="spellcheck-section">8. Spellcheck Attribute</h2>
+    <p>
+        The <b>spellcheck</b> attribute enables or disables browser spell checking on inputs and textareas.
+    </p>
+
+    <table id="spellcheck-table" class="info-table check-section" width="80%" border="1" cellpadding="12">
+        <tr bgcolor="#e8f5e9">
+            <td>
+                <label for="spell-on"><b>Spellcheck ON (true):</b></label><br><br>
+                <textarea id="spell-on"
+                          class="spell-textarea check-on"
+                          name="spell-on"
+                          rows="3"
+                          cols="50"
+                          spellcheck="true"
+                          title="Spellcheck is enabled - typos will be underlined"
+                          placeholder="Type here to see spell check working. Try writing a wrond word like teh or thier."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="spell-off"><b>Spellcheck OFF (false):</b></label><br><br>
+                <textarea id="spell-off"
+                          class="spell-textarea check-off"
+                          name="spell-off"
+                          rows="3"
+                          cols="50"
+                          spellcheck="false"
+                          title="Spellcheck is disabled - typos won't be highlighted"
+                          placeholder="Code like: &lt;div class=&quot;myClass&quot;&gt; will not show red underlines."></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 9: translate="no" on elements                        -->
+    <!-- ============================================================ -->
+
+    <h2 id="translate-section">9. Translate Attribute</h2>
+    <p>
+        The <b>translate="no"</b> attribute tells browsers and translation tools
+        <i>not</i> to translate certain words like code, brand names, or technical terms.
+    </p>
+
+    <table id="translate-table" class="info-table translate-section" width="80%" border="1" cellpadding="12" bgcolor="#fff9e6">
+        <tr>
+            <td>
+                <p>
+                    My name is
+                    <span id="name-notranslate"
+                          class="no-translate name-span"
+                          translate="no"
+                          title="Name - should not be translated">
+                        Paladugu Venkata Bharath
+                    </span>
+                    and I am currently working on a project called
+                    <span id="project-notranslate"
+                          class="no-translate project-span"
+                          translate="no"
+                          title="Project name - should not be translated">
+                        html-assessment-Bharath
+                    </span>.
+                </p>
+                <p>
+                    The technologies I use are
+                    <span id="tech-notranslate"
+                          class="no-translate tech-span"
+                          translate="no"
+                          title="Technical term - should not be translated">
+                        HTML, CSS, JavaScript, Python, MySQL, GitHub
+                    </span>.
+                    These are technical terms and should not be changed during translation.
+                </p>
+                <p>
+                    My internship company is
+                    <span id="company-notranslate"
+                          class="no-translate company-span"
+                          translate="no"
+                          title="Company name - should not be translated">
+                        Paithacs Software Solutions Pvt Ltd
+                    </span>.
+                    This is a proper noun and must stay as-is in all languages.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 10: HTML Entities (minimum 10 different)             -->
+    <!-- ============================================================ -->
+
+    <h2 id="entities-section">10. HTML Entities</h2>
+    <p>
+        HTML entities are used to display reserved or special characters in HTML.
+        Below are 10+ different entities used naturally in content.
+    </p>
+
+    <table id="entities-table" class="info-table entity-section" width="80%" border="1" cellpadding="10" cellspacing="2">
+
+        <thead>
+            <tr bgcolor="#1b5e20">
+                <th align="center"><font color="white">Entity Code</font></th>
+                <th align="center"><font color="white">Result</font></th>
+                <th align="center"><font color="white">Used In</font></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr bgcolor="#f1f8e9">
+                <td align="center">&amp;copy;</td>
+                <td align="center">&copy;</td>
+                <td align="left">Copyright notice in footer</td>
+            </tr>
+            <tr>
+                <td align="center">&amp;reg;</td>
+                <td align="center">&reg;</td>
+                <td align="left">Registered trademark symbol</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td align="center">&amp;trade;</td>
+                <td align="center">&trade;</td>
+                <td align="left">Trademark symbol</td>
+            </tr>
+            <tr>
+                <td align="center">&amp;euro;</td>
+                <td align="center">&euro;</td>
+                <td align="left">Euro currency symbol</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td align="center">&amp;pound;</td>
+                <td align="center">&pound;</td>
+                <td align="left">British pound symbol</td>
+            </tr>
+            <tr>
+                <td align="center">&amp;nbsp;</td>
+                <td align="center">[non-breaking space]</td>
+                <td align="left">Extra spacing between words</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td align="center">&amp;lt;</td>
+                <td align="center">&lt;</td>
+                <td align="left">Show HTML tag opening bracket</td>
+            </tr>
+            <tr>
+                <td align="center">&amp;gt;</td>
+                <td align="center">&gt;</td>
+                <td align="left">Show HTML tag closing bracket</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td align="center">&amp;amp;</td>
+                <td align="center">&amp;</td>
+                <td align="left">Ampersand character</td>
+            </tr>
+            <tr>
+                <td align="center">&amp;quot;</td>
+                <td align="center">&quot;</td>
+                <td align="left">Quotation marks in attributes</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td align="center">&amp;hearts;</td>
+                <td align="center">&hearts;</td>
+                <td align="left">Heart symbol in content</td>
+            </tr>
+            <tr>
+                <td align="center">&amp;star;</td>
+                <td align="center">&#9733;</td>
+                <td align="left">Star rating symbol</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr bgcolor="rgb(27, 94, 32)">
+                <td colspan="3" align="center">
+                    <font color="white">12 HTML entities demonstrated above</font>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <!-- Entities used naturally in a paragraph -->
+    <table class="info-table entity-para" width="80%" border="1" cellpadding="12" bgcolor="#e8f5e9">
+        <tr>
+            <td>
+                <h3>Entities Used Naturally in Text:</h3>
+                <p>
+                    &copy; 2026 <span translate="no">Paladugu Venkata Bharath</span>. All rights reserved.
+                    The technology &quot;HTML&quot; stands for &lt;HyperText Markup Language&gt;.
+                    Web development tools cost around &euro;0 &amp; &pound;0 since most are open source &amp; free.
+                    I rate HTML learning &trade; &#9733;&#9733;&#9733;&#9733;&#9733; &nbsp; (5 stars).
+                    I &hearts; coding!
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ============================================================ -->
+    <!-- SUMMARY TABLE: All attributes used                           -->
+    <!-- ============================================================ -->
+
+    <h2 id="summary-section">Summary of All Attributes Used</h2>
+
+    <table id="summary-table" class="info-table summary-section" border="1" cellpadding="8" cellspacing="2" width="80%">
+
+        <thead>
+            <tr bgcolor="#1b5e20">
+                <th align="center"><font color="white">Attribute</font></th>
+                <th align="center"><font color="white">Requirement</font></th>
+                <th align="center"><font color="white">Count Used</font></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr bgcolor="#f1f8e9">
+                <td>data-*</td>
+                <td align="center">5+ elements</td>
+                <td align="center">6 different data attributes</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td align="center">10+ unique</td>
+                <td align="center">20+ unique IDs on page</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td>class</td>
+                <td align="center">15+ elements</td>
+                <td align="center">20+ class assignments</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td align="center">8+ elements</td>
+                <td align="center">15+ title attributes</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td>lang</td>
+                <td align="center">specific elements</td>
+                <td align="center">en, ar, te used</td>
+            </tr>
+            <tr>
+                <td>dir</td>
+                <td align="center">ltr and rtl</td>
+                <td align="center">Both demonstrated</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td>contenteditable</td>
+                <td align="center">2+ elements</td>
+                <td align="center">2 editable elements</td>
+            </tr>
+            <tr>
+                <td>draggable</td>
+                <td align="center">3+ elements</td>
+                <td align="center">3 draggable items</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td>hidden</td>
+                <td align="center">1+ element</td>
+                <td align="center">1 hidden paragraph</td>
+            </tr>
+            <tr>
+                <td>tabindex</td>
+                <td align="center">5+ (values -1,0,1,2,3)</td>
+                <td align="center">tabindex -1, 0, 1, 2, 3, 4, 5 used</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td>spellcheck</td>
+                <td align="center">true and false</td>
+                <td align="center">Both on textareas</td>
+            </tr>
+            <tr>
+                <td>translate</td>
+                <td align="center">translate="no"</td>
+                <td align="center">4 spans with translate="no"</td>
+            </tr>
+            <tr bgcolor="#f1f8e9">
+                <td>favicon links</td>
+                <td align="center">16x16, 32x32, 180x180</td>
+                <td align="center">All 3 sizes in &lt;head&gt;</td>
+            </tr>
+            <tr>
+                <td>HTML entities</td>
+                <td align="center">10+ different</td>
+                <td align="center">12 different entities used</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr bgcolor="rgb(27, 94, 32)">
+                <td colspan="3" align="center">
+                    <font color="white">
+                        All Task 7 requirements completed &nbsp;|&nbsp;
+                        Paladugu Venkata Bharath &nbsp;|&nbsp; 
+                    </font>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <!-- Favicon file storage note -->
+    <table class="info-table note-section" width="80%" border="1" cellpadding="12" bgcolor="#fff3e0">
+        <tr>
+            <td>
+                <h3>&#128193; Where to Store Favicon Files:</h3>
+                <p>Place these files inside the <b>task7/icons/</b> folder:</p>
+                <ul>
+                    <li><b>favicon-16x16.png</b> &nbsp;&mdash;&nbsp; 16&times;16 pixel favicon</li>
+                    <li><b>favicon-32x32.png</b> &nbsp;&mdash;&nbsp; 32&times;32 pixel favicon</li>
+                    <li><b>favicon-180x180.png</b> &nbsp;&mdash;&nbsp; 180&times;180 pixel Apple touch icon</li>
+                </ul>
+                <p>
+                    <small>You can use any small square image. Name it correctly and place it in the icons/ folder.
+                    The &lt;link&gt; tags in the &lt;head&gt; already point to the correct paths.</small>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Page Footer -->
+    <table id="page-footer" width="100%" cellpadding="12" bgcolor="#212121">
+        <tr>
+            <td align="center">
+                <font color="white">
+                    &copy; 2026 <span translate="no">Paladugu Venkata Bharath</span>
+                    &nbsp;|&nbsp; &nbsp;|&nbsp;
+                    &nbsp;|&nbsp;
+                    <a href="mailto:venkatabharath@gmail.com">
+                        <font color="#a5d6a7">venkatabharath@gmail.com</font>
+                    </a>
+                    &nbsp;|&nbsp;
+                    <a href="tel:+91 9392857172">
+                        <font color="#a5d6a7">+91 9392857172</font>
+                    </a>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
